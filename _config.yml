@@ -1,11 +1,11 @@
 # Site settings
-author: L Butler
-title: 
+author: LaShanni Butler
+title: Why did you decide to learn data science?
 header-img: img/home-bg.png
 email: lashanni@gmail.com
-copyright_name: L Butler
+copyright_name: LaShanni Butler
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Why datascience
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Sugaboo
