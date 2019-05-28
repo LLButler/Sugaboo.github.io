@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Car Insurance Predictive Modeling"
-date:       2019-05-28 22:55:55 +0000
+date:       2019-05-28 18:55:56 -0400
 permalink:  car_insurance_predictive_modeling
 ---
 
