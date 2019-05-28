@@ -27,9 +27,9 @@ Next step was the exploratory data analysis (EDA).  Now I really enjoy this part
 
 Since I now was interested in the Car Insurance feature, it was time to do more EDA.  I created some bar plots with error bars with certain features on the x-axis and Car Insurance along with y-axis.  The graphs showed me some interesting trends like potential customers with advanced degrees are likely to purchase car insurance, and single people are also likely to buy insurance.  Also, those who are students, retired and unemployed purchased the most insurance.  Lastly, car insurance sells appear to peak in March, Sept, Oct, and Dec.  
 
-[](https://github.com/Sugaboo/dsc-3-final-project-online-ds-pt-112618/blob/master/mod3graph1.png)
+[(https://github.com/Sugaboo/dsc-3-final-project-online-ds-pt-112618/blob/master/mod3graph1.png)]
 
-[](https://github.com/Sugaboo/dsc-3-final-project-online-ds-pt-112618/blob/master/mod3graph2.png)
+[(https://github.com/Sugaboo/dsc-3-final-project-online-ds-pt-112618/blob/master/mod3graph2.png)]
 
  
 Ok so that’s cool, but really doesn’t mean too much without predictive modeling.  That brought me to the next step (and the meat of this project - Modeling).  
@@ -37,7 +37,7 @@ Now this is where I started to pull my hair out, because cleaning the data for p
 Finally, I was ready to do some predictive modeling with my data!  I setup my train/test split data and went to work.  Since I was focusing on classification for my predictive modeling, I choose to run the following: K-Nearest Neighbors (kNN), Logistic Regression, Support Vector Machine (SVM), Decision Tree and Random Forest.  These models are examples of Supervised machine learning.  Supervised machine learning is a method that enables the machine to classify and predict objects, problems or situations based on labeled data.  With this type of model, your data is labeled, direct feedback is given, and the machine predicts the output.  
 With each predictive model, confusion matrices would be needed.  Confusion matrices are helpful because they assess the accuracy of each model used.  Basically, they’re a summary of prediction results on your classification problem.  The output generated from your code will be a cool looking square:
  
- [](https://github.com/Sugaboo/dsc-3-final-project-online-ds-pt-112618/blob/master/mod3graph3.png)
+ [(https://github.com/Sugaboo/dsc-3-final-project-online-ds-pt-112618/blob/master/mod3graph3.png)]
  
  
 For instance, this above confusion matrix was generated for my Decision Tree model.  It looks very similar to a heatmap.  The gist of this bad boy is you count all the success and failure values in each square (mine totaled 800).  I’m interested in the percentage of the true positive and true negative values / the total count.  So that would be the values in the darkest blue squares (346+288 / 800 = 0.79).  If you multiply 0.79 x 100, this would generate 79%.  So, my confusion matrix for this model shows an accuracy of 79%.  For the models, my confusion matrices accuracy were:
@@ -50,7 +50,7 @@ For instance, this above confusion matrix was generated for my Decision Tree mod
 
 So based on my predictive models, Random Forest seemed to be the best predictive model as it had the highest accuracy.  Additionally, I wanted to know which features in this data set were the most important.  This would help with the cold calling efforts as it would most likely drive the most sales.  I used the ExtraTreesClassifer in Sklearn and generated the following graph of the top 5 features: 
 
-[](https://github.com/Sugaboo/dsc-3-final-project-online-ds-pt-112618/blob/master/mod3graph4.png)
+[(https://github.com/Sugaboo/dsc-3-final-project-online-ds-pt-112618/blob/master/mod3graph4.png)]
  
 The graph showed that the Call Time (i.e. – time on the phone with potential customers) was the top feature in this data set.  Last Contact Day also showed that potential customers who were contacted regularly seemed more likely to purchase car insurance.
 
