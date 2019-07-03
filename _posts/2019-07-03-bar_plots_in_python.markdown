@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Bar Plots in Python"
-date:       2019-07-03 09:39:21 +0000
+date:       2019-07-03 05:39:23 -0400
 permalink:  bar_plots_in_python
 ---
 
