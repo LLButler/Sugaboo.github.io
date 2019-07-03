@@ -22,6 +22,7 @@ There are also some variations of the Bar Plot: lollipop plot and circular.  The
 
 * Lollipop Bar Plot: https://www.data-to-viz.com/graph/barplot_files/figure-html/unnamed-chunk-4-1.png
 
+
 * Circulation Bar Plot: https://www.data-to-viz.com/graph/barplot_files/figure-html/unnamed-chunk-5-1.png
 
 So, what are the advantages of Bar Plots?  They are easy to interpret, show a clear relation between size/comparison, and present either large or small values quite well.  What are the disadvantages of using Bar Plots?  Another great question.  Bar plots often require additional explanation, they fail to expose key assumptions/causes/impacts/patterns and they are easily manipulated to give false impressions.  
