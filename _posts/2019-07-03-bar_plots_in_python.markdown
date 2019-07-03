@@ -12,18 +12,18 @@ What’s lovely about Python is that is has a multitude of visualization librari
 
 Now that the overview of the two is out the way, the visualization capacity of both are extremely useful.  Since we need to focus on a visualization technique of my choice for this blog, I’m going to focus on Bar Plots, which can be done in both libraries (insert cheers and applause).  So, you’re probably asking why are Bar Plots important?  I’m glad you asked!  Bar plots are highly effective when visualizing categorical data with less than or equal to 10 categories.  Bar Plots are ideal for categorical data because you’re able to see the difference between the size of the bar (i.e. magnitude); categories are also easily divided, and color coded too. There are 3 different types of bar plots: regular, grouped, and stacked.  Regular bar plots there really is nothing fancy, its just a regular bar plot.  Grouped bar plots allow us to compare multiple categorical variables.  Lastly, Stacked bar plots are great for visualizing the categorical make-up of different variables.
 
-* Regular Bar Plot: (https://cdn-images-1.medium.com/max/800/1*KH2IUzjWtvv5vE16MmUqkA.png)
+* Regular Bar Plot: https://cdn-images-1.medium.com/max/800/1*KH2IUzjWtvv5vE16MmUqkA.png
 
-* Grouped Bar Plot: (https://cdn-images-1.medium.com/max/800/1*eFUevHu9wMgnwSlcOSnSFw.png)
+*  Grouped Bar Plot: https://cdn-images-1.medium.com/max/800/1*eFUevHu9wMgnwSlcOSnSFw.png
 
-* Stacked Bar Plot: (https://cdn-images-1.medium.com/max/800/1*XS1QXGy8CzIPYrrC7bFFEA.png)
+* Stacked Bar Plot: https://cdn-images-1.medium.com/max/800/1*XS1QXGy8CzIPYrrC7bFFEA.png
 
 There are also some variations of the Bar Plot: lollipop plot and circular.  The lollipop plot replaces the bars with a segment and a dot. It results in a less cluttered figure that is often more attractive.  The circulation bar plot is great for many groups but is less accurate and ideal if you have a pattern to the dataset. 
 
-* Lollipop Bar Plot: ([https://www.data-to-viz.com/graph/barplot_files/figure-html/unnamed-chunk-4-1.png])
+* Lollipop Bar Plot: [https://www.data-to-viz.com/graph/barplot_files/figure-html/unnamed-chunk-4-1.png]
 
 
-* Circulation Bar Plot: ([https://www.data-to-viz.com/graph/barplot_files/figure-html/unnamed-chunk-5-1.png])
+* Circulation Bar Plot: (https://www.data-to-viz.com/graph/barplot_files/figure-html/unnamed-chunk-5-1.png)
 
 So, what are the advantages of Bar Plots?  They are easy to interpret, show a clear relation between size/comparison, and present either large or small values quite well.  What are the disadvantages of using Bar Plots?  Another great question.  Bar plots often require additional explanation, they fail to expose key assumptions/causes/impacts/patterns and they are easily manipulated to give false impressions.  
 
