@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Git and GitHub Tutorial"
-date:       2019-07-09 08:47:43 +0000
+date:       2019-07-09 04:47:44 -0400
 permalink:  git_and_github_tutorial
 ---
 
