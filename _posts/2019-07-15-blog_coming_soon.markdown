@@ -22,7 +22,7 @@ Next step was to transform the malignant and benign columns, which were categori
 
 [(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/hr_histogram_plots.png)]
 
-![](https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20scatter%20plot.png)
+[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20scatter%20plot.png)]
 
 [(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20tumor%20types.png)]
 
@@ -33,11 +33,11 @@ I needed to prep my data for predictive modeling by splitting it into training a
 
 I first looked at the machine learning models and generated the model testing accuracy.  The output was: 
 
-•	K Nearest Neighbor: 96%
-•	Logistic regression: 96%
-•	Support Vector Machine: 98%
-•	Decision Tree: 95% 
-•	Random Forest: 95%
+•	K Nearest Neighbor: 94%
+•	Logistic regression: 97%
+•	Support Vector Machine: 95%
+•	Decision Tree: 94% 
+•	Random Forest: 96%
 
 [(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_KNN.PNG)]
 
@@ -49,16 +49,15 @@ I first looked at the machine learning models and generated the model testing ac
 
 [(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_RF.PNG)]
 
-So, it seemed as though Support Vector Machine performed the best out of all the models.  A close second were both KNN and Logistic Regression.  As I moved on the deep learning, I decided to use Keras for modeling my data.  Keras contains numerous implementations of commonly used neural network building blocks such as layers, objectives, activation functions, optimizations, and a host of tools to make working with image and text data easier.  What I like about Keras is it’s great for beginners, minimalistic, and its modular approach makes it easy to get deep neural networks up and running.  
+So, it seemed as though Logistic Regression performed the best out of all the models.  A close second was Random Forest at 96%.  As I moved on the deep learning, I decided to use Keras for modeling my data.  Keras contains numerous implementations of commonly used neural network building blocks such as layers, objectives, activation functions, optimizations, and a host of tools to make working with image and text data easier.  What I like about Keras is it’s great for beginners, minimalistic, and its modular approach makes it easy to get deep neural networks up and running.  
 
-I loaded the necessary libraries to run Keras, as well as a few libraries from Sklearn for the deep learning/neural network.  I needed to add layers to the neural network, so I did that.  Also adding dropout to the model prevents overfitting of the data.  After compiling the metrics, I ran the model.  The final output showed the model had 96% accuracy.  So that’s not too bad, the deep learning model was almost 96% accurate in predicting breast cancer malignancies.  
+I loaded the necessary libraries to run Keras, as well as a few libraries from Sklearn for the deep learning/neural network.  I needed to add layers to the neural network, so I did that.  Also adding dropout to the model prevents overfitting of the data.  After compiling the metrics, I ran the model.  The final output showed the model had 95% accuracy.  So that’s not too bad, the deep learning model was very accurate in predicting breast cancer malignancies.  
 
 [(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_Keras.PNG)]
 
+In closing, the machine learning models with the highest level of accuracy in predicting malignancies was logistic regression at 97%.  Random Forest was a close second, coming in at 95%. The deep learning model using Keras showed 95%, as well as SVM.
 
-So overall, the machine learning model Support Vector Machine showed the highest level of accuracy in determining malignancies.  Two other machine learning models: KNN and Logistic regression came in second in determining which patients had breast cancer.  Additionally, the deep learning model came in second in terms of determining the highest level of accuracy, so that’s very interesting.
+I was hoping that the neural network would show the highest level of accuracy (since it mimics the human brain), but its performance was on par in comparison to some of the machine learning models.  Overall that still not bad though.  While using machine learning or deep learning models can help predict which patients have breast cancer, this technique is still fallible.  Even using a medical doctor to determine breast cancer is not 100% accurate.  However, this technique does show great promise.  
 
-I was hoping that the neural network would show the highest level of accuracy (since it mimics the human brain), but its performance was on par in comparison to some of the machine learning models.  Overall that still not bad though.  While using machine learning or deep learning models can help predict which patients have breast cancer, this technique is still fallible.  Even using a medical doctor to determine breast cancer is not 100% accurate.  However, this technique does show great promise.  I believe using either machine learning or deep learning to predict breast cancer, along with the skillful trained eye of a physician, will be the best course of action for assessing breast cancer malignancies in patients.  
-
-
+I believe using either machine learning or deep learning to predict breast cancer, along with the skillful trained eye of a physician, will be the best course of action for assessing breast cancer malignancies in patients. This methodology can help minimize false negatives (which would subject the patient to unecessary testing) and maximize true positives in breast cancer.  
 
