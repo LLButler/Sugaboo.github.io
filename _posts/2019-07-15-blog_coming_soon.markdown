@@ -33,11 +33,11 @@ I needed to prep my data for predictive modeling by splitting it into training a
 
 I first looked at the machine learning models and generated the model testing accuracy.  The output was: 
 
-•	K Nearest Neighbor: 94%
-•	Logistic regression: 97%
-•	Support Vector Machine: 95%
-•	Decision Tree: 94% 
-•	Random Forest: 96%
+* K Nearest Neighbor: 94%
+* Logistic regression: 97%
+* Support Vector Machine: 95%
+* Decision Tree: 94% 
+* Random Forest: 96%
 
 [(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_KNN.PNG)]
 
