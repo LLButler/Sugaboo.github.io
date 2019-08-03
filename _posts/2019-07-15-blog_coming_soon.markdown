@@ -20,13 +20,13 @@ So, once I took a quick look at the data and addressed the missing values, I mov
 
 Next step was to transform the malignant and benign columns, which were categorical values.  Categorical values can not be analyzed properly in the machine and deep learning models, so changing them to 1 and 0 (i.e. – malignant or benign) was the next step.  I did run another scatter plot of all the columns against the diagnosis column to see if anything stood out.  This generated a massage scatter plot of all the features, so I scaled it down.  What stood out mainly for me visually was the malignant tumors were much larger in terms of perimeter, area, radius than the benign ones.  Also, the malignant tumors generally had more texture to them.  Then I generated a correlation table and heat map to look at all the features.  I ran it out of curiosity to see if any other features were worth examining.  I didn’t see anything else and furthermore, for this project, I was interested in predictive modeling looking at the breast cancer diagnosis.    
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/hr_histogram_plots.png)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/hr_histogram_plots.png)]
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20scatter%20plot.png)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20scatter%20plot.png)]
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20tumor%20types.png)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20tumor%20types.png)]
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20tumor%20scatter%20plot.png)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20tumor%20scatter%20plot.png)]
 
 
 I needed to prep my data for predictive modeling by splitting it into training and testing data.  Again, I was solely interested in which models would best predict breast cancer malignancy.  My independent data will tell me the features that can detect if a patient has cancer, and my dependent data will tell me if a patient has cancer or not.  I decided to use an 80% training set and 20% testing set. Next using the StandardScaler feature in Sklearn, I scaled the data.  Scaling the data brings all features to the same level of magnitude.  So, the data will be within a specific range for example 0 -100 or 0 – 1.  
@@ -39,21 +39,21 @@ I first looked at the machine learning models and generated the model testing ac
 * Decision Tree: 94% 
 * Random Forest: 96%
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_KNN.PNG)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_KNN.PNG)]
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_log%20reg.PNG)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_log%20reg.PNG)]
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_SVM.PNG)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_SVM.PNG)]
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_DT.PNG)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_DT.PNG)]
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_RF.PNG)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_RF.PNG)]
 
 So, it seemed as though Logistic Regression performed the best out of all the models.  A close second was Random Forest at 96%.  As I moved on the deep learning, I decided to use Keras for modeling my data.  Keras contains numerous implementations of commonly used neural network building blocks such as layers, objectives, activation functions, optimizations, and a host of tools to make working with image and text data easier.  What I like about Keras is it’s great for beginners, minimalistic, and its modular approach makes it easy to get deep neural networks up and running.  
 
 I loaded the necessary libraries to run Keras, as well as a few libraries from Sklearn for the deep learning/neural network.  I needed to add layers to the neural network, so I did that.  Also adding dropout to the model prevents overfitting of the data.  After compiling the metrics, I ran the model.  The final output showed the model had 95% accuracy.  So that’s not too bad, the deep learning model was very accurate in predicting breast cancer malignancies.  
 
-[(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_Keras.PNG)]
+![(https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/CM_Keras.PNG)]
 
 In closing, the machine learning models with the highest level of accuracy in predicting malignancies was logistic regression at 97%.  Random Forest was a close second, coming in at 95%. The deep learning model using Keras showed 95%, as well as SVM.
 
