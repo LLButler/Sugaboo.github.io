@@ -5,7 +5,7 @@ date:       2019-07-15 23:29:33 -0400
 permalink:  jupyter_notebook
 ---
 
-Getting started in data science can be overwhelming, especially when you consider the variety of concepts and techniques a data scienctist needs to master in order to do her job effectively. Even the term “data science” can be somewhat nebulous, and as the field gains popularity it seems to lose definition. To help those new to the field stay on top of industry jargon and terminology, we’ve put together this glossary of data science terms. We hope it will serve as your handy quick reference whenever you’re working on a project, or reading an article and find you can’t quite remember what “ETL” means. Are we missing a term? Get in touch.
+Getting started in data science can be overwhelming, especially when you consider the variety of concepts and techniques a data scienctist needs to master in order to do her job effectively. Even the term “data science” can be unclear. To help those new to the field (such as myself) stay on top of industry jargon and terminology, I've compiled a glossary of data science terms. 
 
 #### Algorithms
 An algorithm is a set of instructions we give a computer so it can take values and manipulate them into a usable form. This can be as easy as finding and removing every comma in a paragraph, or as complex as building an equation that predicts how many home runs a baseball player will hit in 2018.
